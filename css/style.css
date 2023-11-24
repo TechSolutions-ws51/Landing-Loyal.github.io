@@ -49,14 +49,14 @@ section{
 /*Cambio de idioma*/
 .en {
     color: #ffffff;
-    font-size: 20px;
-    padding: 0.1em 4em; /* Ajusta el valor de padding según tus preferencias */
+    font-size: 13px;
+    padding: 0.1em 1em; /* Ajusta el valor de padding según tus preferencias */
     /* Otros estilos que puedas necesitar */
 }
 
 .es {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0.1em -0.3em; /* Ajusta el valor de padding según tus preferencias */
     /* Otros estilos que puedas necesitar */
 }
@@ -140,7 +140,7 @@ header .logo span{
 }
 
 header .navbar a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:0 1.5rem;
     color:#ffffff;
 }
@@ -156,11 +156,11 @@ header .icons a{
 }
 
 header .icon-login a {
-    margin-left: -25rem; /* Reducir el margen izquierdo */
+    margin-left: 5rem; /* Reducir el margen izquierdo */
 }
 
 header .icon-sign-up a {
-    margin-left: 1rem; /* Reducir el margen izquierdo */
+    margin-right: -5rem; /* Reducir el margen izquierdo */
 }
 
 
@@ -196,7 +196,7 @@ header .fa-bars{
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 4rem;
     color:rgb(255, 255, 255);
 }
 
@@ -397,6 +397,29 @@ header .fa-bars{
     color:#999;
     font-weight: lighter;
     text-decoration: line-through;
+}
+
+
+.miembros-container {
+    display: flex;
+    justify-content: space-around; /* Puedes usar también 'space-between' para que estén en los extremos */
+    align-items: center; /* Esto centrará verticalmente los elementos si las imágenes tienen diferentes alturas */
+    flex-wrap: wrap; /* Esto permite que los elementos se envuelvan si no caben en una sola fila */
+    margin: 20px 0; /* Ajusta el margen según sea necesario */
+}
+
+.miembro {
+    text-align: center;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    margin: 10px; /* Ajusta el margen entre los miembros */
+}
+
+.miembro img {
+    width: 100%; /* Esto hace que la imagen ocupe todo el ancho del contenedor */
+    border-radius: 50%; /* Puedes usar esto para hacer las imágenes circulares */
+}
+.miembro p{
+    font-size: medium;
 }
 
 
@@ -622,13 +645,17 @@ header .fa-bars{
 }
 
 
+.about-videos{
+    text-align: center;
+    align-items: center;
+}
 /*ubicar imagen de celular*/
 .phone-image {
     position: absolute; /* Coloca la imagen en una posición absoluta */
     top: 55%; /* Coloca la imagen en el 50% del contenedor verticalmente */
     right: 15%; /* Coloca la imagen en el lado derecho del contenedor */
     transform: translateY(-50%); /* Centra verticalmente la imagen */
-    width: 350px; /* Ajusta el ancho de la imagen según tus necesidades */
+    width: 250px; /* Ajusta el ancho de la imagen según tus necesidades */
     /* Puedes agregar más estilos según tus preferencias */
 }
 
